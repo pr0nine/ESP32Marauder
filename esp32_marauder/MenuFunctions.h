@@ -11,7 +11,7 @@
 
 #ifdef HAS_SCREEN
 
-#define BATTERY_ANALOG_ON 0
+#define BATTERY_ANALOG_ON 1
 
 #include "WiFiScan.h"
 #include "BatteryInterface.h"
@@ -306,4 +306,5 @@ class MenuFunctions
 
 #endif
 #endif
+
 
